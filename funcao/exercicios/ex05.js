@@ -6,7 +6,6 @@
 // valor como 0.30000000000000004 e retorne R$0,30 (observe a vírgula e o ponto).
 
 function formatarValores(num) {
-  // conversao = `R$ ${num.toFixed(2)}`
   conversao = `R$ ${num.toFixed(2).toString().replace(".", ",")}`
   console.log(conversao)
 }
