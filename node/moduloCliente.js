@@ -9,5 +9,5 @@ console.log(moduloA)
 console.log('\n')
 
 console.log(moduloB.bomDia)
-console.log(moduloB.boaNoite)
+console.log(moduloB.boaNoite())
 console.log(moduloB)
