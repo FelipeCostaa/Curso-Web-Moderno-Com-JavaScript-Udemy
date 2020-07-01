@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Unidades #02</title>
-    <style>
-        /* ... */
-    </style>
+  <meta charset="UTF-8">
+  <title>Unidades #02</title>
+  <style>
+    .fora {
+      position: relative;
+      background-color: orange;
+      width: 400px;
+      height: 400px;
+      padding: 50px;
+    }
+
+    .dentro {
+      background-color: mediumvioletred;
+      height: 100px;
+      width: 100%;
+      /* Conteudo */
+      position: static;
+      /* Conteudo */
+      position: relative;
+      /* Conteudo + Padding */
+      position: absolute;
+      /* Viewport  */
+      position: fixed;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="fora">
-        <div class="dentro"></div>
-    </div>
+  <div class="fora">
+    <div class="dentro"></div>
+  </div>
 </body>
+
 </html>
